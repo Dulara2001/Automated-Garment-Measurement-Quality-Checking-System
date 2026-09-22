@@ -1,4 +1,4 @@
-# Automated Garment Measurement & Quality-Checking System (ELIoT-EYE / GarmentQC AI)
+# Automated Garment Measurement & Quality-Checking System (GarmentQC AI)
 
 A computer-vision system that measures garments automatically for factory quality control.
 
