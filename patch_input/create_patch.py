@@ -13,8 +13,10 @@ import time
 from pathlib import Path
 
 # --- CONFIGURATION (MUST MATCH UPDATER.PY & BUILDER) ---
-ENCRYPTION_KEY = b"REDACTED_ROTATED_KEY" 
-MODEL_XOR_KEY = 42                       
+ENCRYPTION_KEY = os.environ.get("GARMENT_QC_ENCRYPTION_KEY", "").encode()
+if not ENCRYPTION_KEY:
+    raise RuntimeError("GARMENT_QC_ENCRYPTION_KEY env var is not set")
+MODEL_XOR_KEY = 42
 
 # --- DYNAMIC PATH RESOLUTION ---
 # Since this script is INSIDE 'patch_input', the input dir is the folder it sits in.

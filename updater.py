@@ -16,10 +16,12 @@ REPO_OWNER = "wpslakshitha"
 REPO_NAME = "garment-qc-updates"
 
 VERSION_FILE = "sys_config_v1.bin" # The encrypted version file
-ENCRYPTION_KEY = b"REDACTED_ROTATED_KEY" 
+ENCRYPTION_KEY = os.environ.get("GARMENT_QC_ENCRYPTION_KEY", "").encode()
 
 def xor_crypt(data):
     """Decrypts (or encrypts) data back to original."""
+    if not ENCRYPTION_KEY:
+        raise RuntimeError("GARMENT_QC_ENCRYPTION_KEY env var is not set")
     key_len = len(ENCRYPTION_KEY)
     return bytearray(b ^ ENCRYPTION_KEY[i % key_len] for i, b in enumerate(data))
 

@@ -46,6 +46,9 @@ class SecureAppBuilder:
 
     def verify_files(self):
         self.print_step(2, 7, "Verifying source files...")
+        if not os.environ.get("GARMENT_QC_ENCRYPTION_KEY"):
+            print("\n[ERROR] GARMENT_QC_ENCRYPTION_KEY env var is not set. Set it before building.")
+            sys.exit(1)
         required = [
             self.main_script, "models/fashion_landmark.onnx", "icon.ico", 
             "updater.py", "web_launcher.py", "security/activator.py", 
@@ -220,14 +223,20 @@ coll = COLLECT(
         (data_dir / "references").mkdir(exist_ok=True)
         (data_dir / "pending_uploads").mkdir(exist_ok=True)
 
+        enc_key = os.environ.get("GARMENT_QC_ENCRYPTION_KEY", "").encode()
+        if not enc_key:
+            print("\n[ERROR] GARMENT_QC_ENCRYPTION_KEY env var is not set. Cannot encrypt version file.")
+            sys.exit(1)
         version_data = json.dumps({"version": self.version}).encode('utf-8')
-        enc_key = b"REDACTED_ROTATED_KEY"
         encrypted_version = bytearray(b ^ enc_key[i % len(enc_key)] for i, b in enumerate(version_data))
         (self.dist_dir / self.app_name / "sys_config_v1.bin").write_bytes(encrypted_version)
 
     def create_launcher(self):
         self.print_step(7, 7, "Creating launcher script...")
-        launcher_content = f'''@echo off\ntitle GarmentQC AI - Pro\ncolor 0B\ncd /d "%~dp0"\nif not exist "data" mkdir data\\reports data\\references data\\pending_uploads\nstart "" "{self.app_name}.exe"\n'''
+        enc_key = os.environ.get("GARMENT_QC_ENCRYPTION_KEY", "")
+        # Baked into the built launcher only (dist/ is not committed to git), so the
+        # shipped EXE can read the same key at runtime via the environment.
+        launcher_content = f'''@echo off\ntitle GarmentQC AI - Pro\ncolor 0B\ncd /d "%~dp0"\nset "GARMENT_QC_ENCRYPTION_KEY={enc_key}"\nif not exist "data" mkdir data\\reports data\\references data\\pending_uploads\nstart "" "{self.app_name}.exe"\n'''
         (self.dist_dir / self.app_name / "Launch_GarmentQC.bat").write_text(launcher_content, encoding="utf-8")
 
     def build(self):
