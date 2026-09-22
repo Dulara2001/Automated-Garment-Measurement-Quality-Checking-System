@@ -1,0 +1,1222 @@
+{
+  "units": "inch",
+  "mode": "mixed",
+  "_comment": "Generated from the customer spec sheet '3889 and pant Spec'. 'description' is the ELIoT-EYE internal letter; 'pom_code' is the customer code. TOLERANCES ARE PLACEHOLDERS - replace with the customer's real values.",
+  "key_measurements": {
+    "trousers": [
+      "J",
+      "M",
+      "P",
+      "Q",
+      "T",
+      "K",
+      "L",
+      "S",
+      "V"
+    ],
+    "trousers_back": [
+      "J",
+      "U"
+    ]
+  },
+  "trousers": {
+    "26": [
+      {
+        "value": "13.5",
+        "pom_code": "H-50",
+        "tol_plus": "0.25",
+        "tol_minus": "0.25",
+        "description": "J",
+        "name": "WAIST - Along top edge of waistband"
+      },
+      {
+        "value": "17.75",
+        "pom_code": "I-26",
+        "tol_plus": "0.25",
+        "tol_minus": "0.25",
+        "description": "M",
+        "name": "HIP - 3 point measurement"
+      },
+      {
+        "value": "10",
+        "pom_code": "K-01",
+        "tol_plus": "0.25",
+        "tol_minus": "0.25",
+        "description": "S",
+        "name": "FRONT RISE - Top of waistband to crotch seam"
+      },
+      {
+        "value": "6",
+        "pom_code": "N-01",
+        "tol_plus": "0.25",
+        "tol_minus": "0.25",
+        "description": "V",
+        "name": "FLY LENGTH - Fly top seam to bottom of J stitch"
+      },
+      {
+        "value": "9.688",
+        "pom_code": "L-02",
+        "tol_plus": "0.25",
+        "tol_minus": "0.25",
+        "description": "T",
+        "name": "THIGH - 1in below crotch seam"
+      },
+      {
+        "value": "7.25",
+        "pom_code": "L-38",
+        "tol_plus": "0.25",
+        "tol_minus": "0.25",
+        "description": "K",
+        "name": "BOTTOM OPENING - Leg opening edge to edge"
+      },
+      {
+        "value": "7.25",
+        "pom_code": "L-38",
+        "tol_plus": "0.25",
+        "tol_minus": "0.25",
+        "description": "L",
+        "name": "BOTTOM OPENING - Leg opening edge to edge"
+      },
+      {
+        "value": "32",
+        "pom_code": "A-64",
+        "tol_plus": "0.25",
+        "tol_minus": "0.25",
+        "description": "P",
+        "name": "INSEAM - Crotch seam to hem along inside leg"
+      },
+      {
+        "value": "32",
+        "pom_code": "A-64",
+        "tol_plus": "0.25",
+        "tol_minus": "0.25",
+        "description": "Q",
+        "name": "INSEAM - Crotch seam to hem along inside leg"
+      }
+    ],
+    "27": [
+      {
+        "value": "14",
+        "pom_code": "H-50",
+        "tol_plus": "0.25",
+        "tol_minus": "0.25",
+        "description": "J",
+        "name": "WAIST - Along top edge of waistband"
+      },
+      {
+        "value": "18.25",
+        "pom_code": "I-26",
+        "tol_plus": "0.25",
+        "tol_minus": "0.25",
+        "description": "M",
+        "name": "HIP - 3 point measurement"
+      },
+      {
+        "value": "10.125",
+        "pom_code": "K-01",
+        "tol_plus": "0.25",
+        "tol_minus": "0.25",
+        "description": "S",
+        "name": "FRONT RISE - Top of waistband to crotch seam"
+      },
+      {
+        "value": "6",
+        "pom_code": "N-01",
+        "tol_plus": "0.25",
+        "tol_minus": "0.25",
+        "description": "V",
+        "name": "FLY LENGTH - Fly top seam to bottom of J stitch"
+      },
+      {
+        "value": "10",
+        "pom_code": "L-02",
+        "tol_plus": "0.25",
+        "tol_minus": "0.25",
+        "description": "T",
+        "name": "THIGH - 1in below crotch seam"
+      },
+      {
+        "value": "7.375",
+        "pom_code": "L-38",
+        "tol_plus": "0.25",
+        "tol_minus": "0.25",
+        "description": "K",
+        "name": "BOTTOM OPENING - Leg opening edge to edge"
+      },
+      {
+        "value": "7.375",
+        "pom_code": "L-38",
+        "tol_plus": "0.25",
+        "tol_minus": "0.25",
+        "description": "L",
+        "name": "BOTTOM OPENING - Leg opening edge to edge"
+      },
+      {
+        "value": "32",
+        "pom_code": "A-64",
+        "tol_plus": "0.25",
+        "tol_minus": "0.25",
+        "description": "P",
+        "name": "INSEAM - Crotch seam to hem along inside leg"
+      },
+      {
+        "value": "32",
+        "pom_code": "A-64",
+        "tol_plus": "0.25",
+        "tol_minus": "0.25",
+        "description": "Q",
+        "name": "INSEAM - Crotch seam to hem along inside leg"
+      }
+    ],
+    "28": [
+      {
+        "value": "14.5",
+        "pom_code": "H-50",
+        "tol_plus": "0.25",
+        "tol_minus": "0.25",
+        "description": "J",
+        "name": "WAIST - Along top edge of waistband"
+      },
+      {
+        "value": "18.75",
+        "pom_code": "I-26",
+        "tol_plus": "0.25",
+        "tol_minus": "0.25",
+        "description": "M",
+        "name": "HIP - 3 point measurement"
+      },
+      {
+        "value": "10.25",
+        "pom_code": "K-01",
+        "tol_plus": "0.25",
+        "tol_minus": "0.25",
+        "description": "S",
+        "name": "FRONT RISE - Top of waistband to crotch seam"
+      },
+      {
+        "value": "6",
+        "pom_code": "N-01",
+        "tol_plus": "0.25",
+        "tol_minus": "0.25",
+        "description": "V",
+        "name": "FLY LENGTH - Fly top seam to bottom of J stitch"
+      },
+      {
+        "value": "10.312",
+        "pom_code": "L-02",
+        "tol_plus": "0.25",
+        "tol_minus": "0.25",
+        "description": "T",
+        "name": "THIGH - 1in below crotch seam"
+      },
+      {
+        "value": "7.5",
+        "pom_code": "L-38",
+        "tol_plus": "0.25",
+        "tol_minus": "0.25",
+        "description": "K",
+        "name": "BOTTOM OPENING - Leg opening edge to edge"
+      },
+      {
+        "value": "7.5",
+        "pom_code": "L-38",
+        "tol_plus": "0.25",
+        "tol_minus": "0.25",
+        "description": "L",
+        "name": "BOTTOM OPENING - Leg opening edge to edge"
+      },
+      {
+        "value": "32",
+        "pom_code": "A-64",
+        "tol_plus": "0.25",
+        "tol_minus": "0.25",
+        "description": "P",
+        "name": "INSEAM - Crotch seam to hem along inside leg"
+      },
+      {
+        "value": "32",
+        "pom_code": "A-64",
+        "tol_plus": "0.25",
+        "tol_minus": "0.25",
+        "description": "Q",
+        "name": "INSEAM - Crotch seam to hem along inside leg"
+      }
+    ],
+    "29": [
+      {
+        "value": "15",
+        "pom_code": "H-50",
+        "tol_plus": "0.25",
+        "tol_minus": "0.25",
+        "description": "J",
+        "name": "WAIST - Along top edge of waistband"
+      },
+      {
+        "value": "19.25",
+        "pom_code": "I-26",
+        "tol_plus": "0.25",
+        "tol_minus": "0.25",
+        "description": "M",
+        "name": "HIP - 3 point measurement"
+      },
+      {
+        "value": "10.375",
+        "pom_code": "K-01",
+        "tol_plus": "0.25",
+        "tol_minus": "0.25",
+        "description": "S",
+        "name": "FRONT RISE - Top of waistband to crotch seam"
+      },
+      {
+        "value": "6",
+        "pom_code": "N-01",
+        "tol_plus": "0.25",
+        "tol_minus": "0.25",
+        "description": "V",
+        "name": "FLY LENGTH - Fly top seam to bottom of J stitch"
+      },
+      {
+        "value": "10.625",
+        "pom_code": "L-02",
+        "tol_plus": "0.25",
+        "tol_minus": "0.25",
+        "description": "T",
+        "name": "THIGH - 1in below crotch seam"
+      },
+      {
+        "value": "7.625",
+        "pom_code": "L-38",
+        "tol_plus": "0.25",
+        "tol_minus": "0.25",
+        "description": "K",
+        "name": "BOTTOM OPENING - Leg opening edge to edge"
+      },
+      {
+        "value": "7.625",
+        "pom_code": "L-38",
+        "tol_plus": "0.25",
+        "tol_minus": "0.25",
+        "description": "L",
+        "name": "BOTTOM OPENING - Leg opening edge to edge"
+      },
+      {
+        "value": "32",
+        "pom_code": "A-64",
+        "tol_plus": "0.25",
+        "tol_minus": "0.25",
+        "description": "P",
+        "name": "INSEAM - Crotch seam to hem along inside leg"
+      },
+      {
+        "value": "32",
+        "pom_code": "A-64",
+        "tol_plus": "0.25",
+        "tol_minus": "0.25",
+        "description": "Q",
+        "name": "INSEAM - Crotch seam to hem along inside leg"
+      }
+    ],
+    "30": [
+      {
+        "value": "15.5",
+        "pom_code": "H-50",
+        "tol_plus": "0.25",
+        "tol_minus": "0.25",
+        "description": "J",
+        "name": "WAIST - Along top edge of waistband"
+      },
+      {
+        "value": "19.25",
+        "pom_code": "I-26",
+        "tol_plus": "0.25",
+        "tol_minus": "0.25",
+        "description": "M",
+        "name": "HIP - 3 point measurement"
+      },
+      {
+        "value": "10.5",
+        "pom_code": "K-01",
+        "tol_plus": "0.25",
+        "tol_minus": "0.25",
+        "description": "S",
+        "name": "FRONT RISE - Top of waistband to crotch seam"
+      },
+      {
+        "value": "6",
+        "pom_code": "N-01",
+        "tol_plus": "0.25",
+        "tol_minus": "0.25",
+        "description": "V",
+        "name": "FLY LENGTH - Fly top seam to bottom of J stitch"
+      },
+      {
+        "value": "10.938",
+        "pom_code": "L-02",
+        "tol_plus": "0.25",
+        "tol_minus": "0.25",
+        "description": "T",
+        "name": "THIGH - 1in below crotch seam"
+      },
+      {
+        "value": "7.75",
+        "pom_code": "L-38",
+        "tol_plus": "0.25",
+        "tol_minus": "0.25",
+        "description": "K",
+        "name": "BOTTOM OPENING - Leg opening edge to edge"
+      },
+      {
+        "value": "7.75",
+        "pom_code": "L-38",
+        "tol_plus": "0.25",
+        "tol_minus": "0.25",
+        "description": "L",
+        "name": "BOTTOM OPENING - Leg opening edge to edge"
+      },
+      {
+        "value": "32",
+        "pom_code": "A-64",
+        "tol_plus": "0.25",
+        "tol_minus": "0.25",
+        "description": "P",
+        "name": "INSEAM - Crotch seam to hem along inside leg"
+      },
+      {
+        "value": "32",
+        "pom_code": "A-64",
+        "tol_plus": "0.25",
+        "tol_minus": "0.25",
+        "description": "Q",
+        "name": "INSEAM - Crotch seam to hem along inside leg"
+      }
+    ],
+    "31": [
+      {
+        "value": "16",
+        "pom_code": "H-50",
+        "tol_plus": "0.25",
+        "tol_minus": "0.25",
+        "description": "J",
+        "name": "WAIST - Along top edge of waistband"
+      },
+      {
+        "value": "20.25",
+        "pom_code": "I-26",
+        "tol_plus": "0.25",
+        "tol_minus": "0.25",
+        "description": "M",
+        "name": "HIP - 3 point measurement"
+      },
+      {
+        "value": "10.625",
+        "pom_code": "K-01",
+        "tol_plus": "0.25",
+        "tol_minus": "0.25",
+        "description": "S",
+        "name": "FRONT RISE - Top of waistband to crotch seam"
+      },
+      {
+        "value": "6.5",
+        "pom_code": "N-01",
+        "tol_plus": "0.25",
+        "tol_minus": "0.25",
+        "description": "V",
+        "name": "FLY LENGTH - Fly top seam to bottom of J stitch"
+      },
+      {
+        "value": "11.562",
+        "pom_code": "L-02",
+        "tol_plus": "0.25",
+        "tol_minus": "0.25",
+        "description": "T",
+        "name": "THIGH - 1in below crotch seam"
+      },
+      {
+        "value": "8",
+        "pom_code": "L-38",
+        "tol_plus": "0.25",
+        "tol_minus": "0.25",
+        "description": "K",
+        "name": "BOTTOM OPENING - Leg opening edge to edge"
+      },
+      {
+        "value": "8",
+        "pom_code": "L-38",
+        "tol_plus": "0.25",
+        "tol_minus": "0.25",
+        "description": "L",
+        "name": "BOTTOM OPENING - Leg opening edge to edge"
+      },
+      {
+        "value": "32",
+        "pom_code": "A-64",
+        "tol_plus": "0.25",
+        "tol_minus": "0.25",
+        "description": "P",
+        "name": "INSEAM - Crotch seam to hem along inside leg"
+      },
+      {
+        "value": "32",
+        "pom_code": "A-64",
+        "tol_plus": "0.25",
+        "tol_minus": "0.25",
+        "description": "Q",
+        "name": "INSEAM - Crotch seam to hem along inside leg"
+      }
+    ],
+    "32": [
+      {
+        "value": "16.5",
+        "pom_code": "H-50",
+        "tol_plus": "0.25",
+        "tol_minus": "0.25",
+        "description": "J",
+        "name": "WAIST - Along top edge of waistband"
+      },
+      {
+        "value": "20.75",
+        "pom_code": "I-26",
+        "tol_plus": "0.25",
+        "tol_minus": "0.25",
+        "description": "M",
+        "name": "HIP - 3 point measurement"
+      },
+      {
+        "value": "10.75",
+        "pom_code": "K-01",
+        "tol_plus": "0.25",
+        "tol_minus": "0.25",
+        "description": "S",
+        "name": "FRONT RISE - Top of waistband to crotch seam"
+      },
+      {
+        "value": "6.5",
+        "pom_code": "N-01",
+        "tol_plus": "0.25",
+        "tol_minus": "0.25",
+        "description": "V",
+        "name": "FLY LENGTH - Fly top seam to bottom of J stitch"
+      },
+      {
+        "value": "11.875",
+        "pom_code": "L-02",
+        "tol_plus": "0.25",
+        "tol_minus": "0.25",
+        "description": "T",
+        "name": "THIGH - 1in below crotch seam"
+      },
+      {
+        "value": "8",
+        "pom_code": "L-38",
+        "tol_plus": "0.25",
+        "tol_minus": "0.25",
+        "description": "K",
+        "name": "BOTTOM OPENING - Leg opening edge to edge"
+      },
+      {
+        "value": "8",
+        "pom_code": "L-38",
+        "tol_plus": "0.25",
+        "tol_minus": "0.25",
+        "description": "L",
+        "name": "BOTTOM OPENING - Leg opening edge to edge"
+      },
+      {
+        "value": "32",
+        "pom_code": "A-64",
+        "tol_plus": "0.25",
+        "tol_minus": "0.25",
+        "description": "P",
+        "name": "INSEAM - Crotch seam to hem along inside leg"
+      },
+      {
+        "value": "32",
+        "pom_code": "A-64",
+        "tol_plus": "0.25",
+        "tol_minus": "0.25",
+        "description": "Q",
+        "name": "INSEAM - Crotch seam to hem along inside leg"
+      }
+    ],
+    "33": [
+      {
+        "value": "17",
+        "pom_code": "H-50",
+        "tol_plus": "0.25",
+        "tol_minus": "0.25",
+        "description": "J",
+        "name": "WAIST - Along top edge of waistband"
+      },
+      {
+        "value": "20.75",
+        "pom_code": "I-26",
+        "tol_plus": "0.25",
+        "tol_minus": "0.25",
+        "description": "M",
+        "name": "HIP - 3 point measurement"
+      },
+      {
+        "value": "10.875",
+        "pom_code": "K-01",
+        "tol_plus": "0.25",
+        "tol_minus": "0.25",
+        "description": "S",
+        "name": "FRONT RISE - Top of waistband to crotch seam"
+      },
+      {
+        "value": "6.5",
+        "pom_code": "N-01",
+        "tol_plus": "0.25",
+        "tol_minus": "0.25",
+        "description": "V",
+        "name": "FLY LENGTH - Fly top seam to bottom of J stitch"
+      },
+      {
+        "value": "12.188",
+        "pom_code": "L-02",
+        "tol_plus": "0.25",
+        "tol_minus": "0.25",
+        "description": "T",
+        "name": "THIGH - 1in below crotch seam"
+      },
+      {
+        "value": "8.12",
+        "pom_code": "L-38",
+        "tol_plus": "0.25",
+        "tol_minus": "0.25",
+        "description": "K",
+        "name": "BOTTOM OPENING - Leg opening edge to edge"
+      },
+      {
+        "value": "8.12",
+        "pom_code": "L-38",
+        "tol_plus": "0.25",
+        "tol_minus": "0.25",
+        "description": "L",
+        "name": "BOTTOM OPENING - Leg opening edge to edge"
+      },
+      {
+        "value": "32",
+        "pom_code": "A-64",
+        "tol_plus": "0.25",
+        "tol_minus": "0.25",
+        "description": "P",
+        "name": "INSEAM - Crotch seam to hem along inside leg"
+      },
+      {
+        "value": "32",
+        "pom_code": "A-64",
+        "tol_plus": "0.25",
+        "tol_minus": "0.25",
+        "description": "Q",
+        "name": "INSEAM - Crotch seam to hem along inside leg"
+      }
+    ],
+    "34": [
+      {
+        "value": "17.5",
+        "pom_code": "H-50",
+        "tol_plus": "0.25",
+        "tol_minus": "0.25",
+        "description": "J",
+        "name": "WAIST - Along top edge of waistband"
+      },
+      {
+        "value": "21.75",
+        "pom_code": "I-26",
+        "tol_plus": "0.25",
+        "tol_minus": "0.25",
+        "description": "M",
+        "name": "HIP - 3 point measurement"
+      },
+      {
+        "value": "11",
+        "pom_code": "K-01",
+        "tol_plus": "0.25",
+        "tol_minus": "0.25",
+        "description": "S",
+        "name": "FRONT RISE - Top of waistband to crotch seam"
+      },
+      {
+        "value": "6.5",
+        "pom_code": "N-01",
+        "tol_plus": "0.25",
+        "tol_minus": "0.25",
+        "description": "V",
+        "name": "FLY LENGTH - Fly top seam to bottom of J stitch"
+      },
+      {
+        "value": "12.5",
+        "pom_code": "L-02",
+        "tol_plus": "0.25",
+        "tol_minus": "0.25",
+        "description": "T",
+        "name": "THIGH - 1in below crotch seam"
+      },
+      {
+        "value": "8.25",
+        "pom_code": "L-38",
+        "tol_plus": "0.25",
+        "tol_minus": "0.25",
+        "description": "K",
+        "name": "BOTTOM OPENING - Leg opening edge to edge"
+      },
+      {
+        "value": "8.25",
+        "pom_code": "L-38",
+        "tol_plus": "0.25",
+        "tol_minus": "0.25",
+        "description": "L",
+        "name": "BOTTOM OPENING - Leg opening edge to edge"
+      },
+      {
+        "value": "32",
+        "pom_code": "A-64",
+        "tol_plus": "0.25",
+        "tol_minus": "0.25",
+        "description": "P",
+        "name": "INSEAM - Crotch seam to hem along inside leg"
+      },
+      {
+        "value": "32",
+        "pom_code": "A-64",
+        "tol_plus": "0.25",
+        "tol_minus": "0.25",
+        "description": "Q",
+        "name": "INSEAM - Crotch seam to hem along inside leg"
+      }
+    ],
+    "36": [
+      {
+        "value": "18.5",
+        "pom_code": "H-50",
+        "tol_plus": "0.25",
+        "tol_minus": "0.25",
+        "description": "J",
+        "name": "WAIST - Along top edge of waistband"
+      },
+      {
+        "value": "22.75",
+        "pom_code": "I-26",
+        "tol_plus": "0.25",
+        "tol_minus": "0.25",
+        "description": "M",
+        "name": "HIP - 3 point measurement"
+      },
+      {
+        "value": "11.25",
+        "pom_code": "K-01",
+        "tol_plus": "0.25",
+        "tol_minus": "0.25",
+        "description": "S",
+        "name": "FRONT RISE - Top of waistband to crotch seam"
+      },
+      {
+        "value": "6.5",
+        "pom_code": "N-01",
+        "tol_plus": "0.25",
+        "tol_minus": "0.25",
+        "description": "V",
+        "name": "FLY LENGTH - Fly top seam to bottom of J stitch"
+      },
+      {
+        "value": "13",
+        "pom_code": "L-02",
+        "tol_plus": "0.25",
+        "tol_minus": "0.25",
+        "description": "T",
+        "name": "THIGH - 1in below crotch seam"
+      },
+      {
+        "value": "8.375",
+        "pom_code": "L-38",
+        "tol_plus": "0.25",
+        "tol_minus": "0.25",
+        "description": "K",
+        "name": "BOTTOM OPENING - Leg opening edge to edge"
+      },
+      {
+        "value": "8.375",
+        "pom_code": "L-38",
+        "tol_plus": "0.25",
+        "tol_minus": "0.25",
+        "description": "L",
+        "name": "BOTTOM OPENING - Leg opening edge to edge"
+      },
+      {
+        "value": "32",
+        "pom_code": "A-64",
+        "tol_plus": "0.25",
+        "tol_minus": "0.25",
+        "description": "P",
+        "name": "INSEAM - Crotch seam to hem along inside leg"
+      },
+      {
+        "value": "32",
+        "pom_code": "A-64",
+        "tol_plus": "0.25",
+        "tol_minus": "0.25",
+        "description": "Q",
+        "name": "INSEAM - Crotch seam to hem along inside leg"
+      }
+    ],
+    "38": [
+      {
+        "value": "19.5",
+        "pom_code": "H-50",
+        "tol_plus": "0.25",
+        "tol_minus": "0.25",
+        "description": "J",
+        "name": "WAIST - Along top edge of waistband"
+      },
+      {
+        "value": "23.75",
+        "pom_code": "I-26",
+        "tol_plus": "0.25",
+        "tol_minus": "0.25",
+        "description": "M",
+        "name": "HIP - 3 point measurement"
+      },
+      {
+        "value": "11.5",
+        "pom_code": "K-01",
+        "tol_plus": "0.25",
+        "tol_minus": "0.25",
+        "description": "S",
+        "name": "FRONT RISE - Top of waistband to crotch seam"
+      },
+      {
+        "value": "6.5",
+        "pom_code": "N-01",
+        "tol_plus": "0.25",
+        "tol_minus": "0.25",
+        "description": "V",
+        "name": "FLY LENGTH - Fly top seam to bottom of J stitch"
+      },
+      {
+        "value": "13.625",
+        "pom_code": "L-02",
+        "tol_plus": "0.25",
+        "tol_minus": "0.25",
+        "description": "T",
+        "name": "THIGH - 1in below crotch seam"
+      },
+      {
+        "value": "8.5",
+        "pom_code": "L-38",
+        "tol_plus": "0.25",
+        "tol_minus": "0.25",
+        "description": "K",
+        "name": "BOTTOM OPENING - Leg opening edge to edge"
+      },
+      {
+        "value": "8.5",
+        "pom_code": "L-38",
+        "tol_plus": "0.25",
+        "tol_minus": "0.25",
+        "description": "L",
+        "name": "BOTTOM OPENING - Leg opening edge to edge"
+      },
+      {
+        "value": "32",
+        "pom_code": "A-64",
+        "tol_plus": "0.25",
+        "tol_minus": "0.25",
+        "description": "P",
+        "name": "INSEAM - Crotch seam to hem along inside leg"
+      },
+      {
+        "value": "32",
+        "pom_code": "A-64",
+        "tol_plus": "0.25",
+        "tol_minus": "0.25",
+        "description": "Q",
+        "name": "INSEAM - Crotch seam to hem along inside leg"
+      }
+    ],
+    "40": [
+      {
+        "value": "20.5",
+        "pom_code": "H-50",
+        "tol_plus": "0.25",
+        "tol_minus": "0.25",
+        "description": "J",
+        "name": "WAIST - Along top edge of waistband"
+      },
+      {
+        "value": "24.75",
+        "pom_code": "I-26",
+        "tol_plus": "0.25",
+        "tol_minus": "0.25",
+        "description": "M",
+        "name": "HIP - 3 point measurement"
+      },
+      {
+        "value": "11.75",
+        "pom_code": "K-01",
+        "tol_plus": "0.25",
+        "tol_minus": "0.25",
+        "description": "S",
+        "name": "FRONT RISE - Top of waistband to crotch seam"
+      },
+      {
+        "value": "7",
+        "pom_code": "N-01",
+        "tol_plus": "0.25",
+        "tol_minus": "0.25",
+        "description": "V",
+        "name": "FLY LENGTH - Fly top seam to bottom of J stitch"
+      },
+      {
+        "value": "14.25",
+        "pom_code": "L-02",
+        "tol_plus": "0.25",
+        "tol_minus": "0.25",
+        "description": "T",
+        "name": "THIGH - 1in below crotch seam"
+      },
+      {
+        "value": "8.75",
+        "pom_code": "L-38",
+        "tol_plus": "0.25",
+        "tol_minus": "0.25",
+        "description": "K",
+        "name": "BOTTOM OPENING - Leg opening edge to edge"
+      },
+      {
+        "value": "8.75",
+        "pom_code": "L-38",
+        "tol_plus": "0.25",
+        "tol_minus": "0.25",
+        "description": "L",
+        "name": "BOTTOM OPENING - Leg opening edge to edge"
+      },
+      {
+        "value": "32",
+        "pom_code": "A-64",
+        "tol_plus": "0.25",
+        "tol_minus": "0.25",
+        "description": "P",
+        "name": "INSEAM - Crotch seam to hem along inside leg"
+      },
+      {
+        "value": "32",
+        "pom_code": "A-64",
+        "tol_plus": "0.25",
+        "tol_minus": "0.25",
+        "description": "Q",
+        "name": "INSEAM - Crotch seam to hem along inside leg"
+      }
+    ],
+    "42": [
+      {
+        "value": "21.5",
+        "pom_code": "H-50",
+        "tol_plus": "0.25",
+        "tol_minus": "0.25",
+        "description": "J",
+        "name": "WAIST - Along top edge of waistband"
+      },
+      {
+        "value": "25.75",
+        "pom_code": "I-26",
+        "tol_plus": "0.25",
+        "tol_minus": "0.25",
+        "description": "M",
+        "name": "HIP - 3 point measurement"
+      },
+      {
+        "value": "12",
+        "pom_code": "K-01",
+        "tol_plus": "0.25",
+        "tol_minus": "0.25",
+        "description": "S",
+        "name": "FRONT RISE - Top of waistband to crotch seam"
+      },
+      {
+        "value": "7",
+        "pom_code": "N-01",
+        "tol_plus": "0.25",
+        "tol_minus": "0.25",
+        "description": "V",
+        "name": "FLY LENGTH - Fly top seam to bottom of J stitch"
+      },
+      {
+        "value": "14.875",
+        "pom_code": "L-02",
+        "tol_plus": "0.25",
+        "tol_minus": "0.25",
+        "description": "T",
+        "name": "THIGH - 1in below crotch seam"
+      },
+      {
+        "value": "9",
+        "pom_code": "L-38",
+        "tol_plus": "0.25",
+        "tol_minus": "0.25",
+        "description": "K",
+        "name": "BOTTOM OPENING - Leg opening edge to edge"
+      },
+      {
+        "value": "9",
+        "pom_code": "L-38",
+        "tol_plus": "0.25",
+        "tol_minus": "0.25",
+        "description": "L",
+        "name": "BOTTOM OPENING - Leg opening edge to edge"
+      },
+      {
+        "value": "32",
+        "pom_code": "A-64",
+        "tol_plus": "0.25",
+        "tol_minus": "0.25",
+        "description": "P",
+        "name": "INSEAM - Crotch seam to hem along inside leg"
+      },
+      {
+        "value": "32",
+        "pom_code": "A-64",
+        "tol_plus": "0.25",
+        "tol_minus": "0.25",
+        "description": "Q",
+        "name": "INSEAM - Crotch seam to hem along inside leg"
+      }
+    ]
+  },
+  "trousers_back": {
+    "26": [
+      {
+        "value": "13.5",
+        "pom_code": "H-50",
+        "tol_plus": "0.25",
+        "tol_minus": "0.25",
+        "description": "J",
+        "name": "WAIST - Along top edge of waistband"
+      },
+      {
+        "value": "15",
+        "pom_code": "K-05",
+        "tol_plus": "0.25",
+        "tol_minus": "0.25",
+        "description": "U",
+        "name": "BACK RISE - Centre back, waistband to crotch seam"
+      }
+    ],
+    "27": [
+      {
+        "value": "14",
+        "pom_code": "H-50",
+        "tol_plus": "0.25",
+        "tol_minus": "0.25",
+        "description": "J",
+        "name": "WAIST - Along top edge of waistband"
+      },
+      {
+        "value": "15.125",
+        "pom_code": "K-05",
+        "tol_plus": "0.25",
+        "tol_minus": "0.25",
+        "description": "U",
+        "name": "BACK RISE - Centre back, waistband to crotch seam"
+      }
+    ],
+    "28": [
+      {
+        "value": "14.5",
+        "pom_code": "H-50",
+        "tol_plus": "0.25",
+        "tol_minus": "0.25",
+        "description": "J",
+        "name": "WAIST - Along top edge of waistband"
+      },
+      {
+        "value": "15.25",
+        "pom_code": "K-05",
+        "tol_plus": "0.25",
+        "tol_minus": "0.25",
+        "description": "U",
+        "name": "BACK RISE - Centre back, waistband to crotch seam"
+      }
+    ],
+    "29": [
+      {
+        "value": "15",
+        "pom_code": "H-50",
+        "tol_plus": "0.25",
+        "tol_minus": "0.25",
+        "description": "J",
+        "name": "WAIST - Along top edge of waistband"
+      },
+      {
+        "value": "15.375",
+        "pom_code": "K-05",
+        "tol_plus": "0.25",
+        "tol_minus": "0.25",
+        "description": "U",
+        "name": "BACK RISE - Centre back, waistband to crotch seam"
+      }
+    ],
+    "30": [
+      {
+        "value": "15.5",
+        "pom_code": "H-50",
+        "tol_plus": "0.25",
+        "tol_minus": "0.25",
+        "description": "J",
+        "name": "WAIST - Along top edge of waistband"
+      },
+      {
+        "value": "15.5",
+        "pom_code": "K-05",
+        "tol_plus": "0.25",
+        "tol_minus": "0.25",
+        "description": "U",
+        "name": "BACK RISE - Centre back, waistband to crotch seam"
+      }
+    ],
+    "31": [
+      {
+        "value": "16",
+        "pom_code": "H-50",
+        "tol_plus": "0.25",
+        "tol_minus": "0.25",
+        "description": "J",
+        "name": "WAIST - Along top edge of waistband"
+      },
+      {
+        "value": "15.625",
+        "pom_code": "K-05",
+        "tol_plus": "0.25",
+        "tol_minus": "0.25",
+        "description": "U",
+        "name": "BACK RISE - Centre back, waistband to crotch seam"
+      }
+    ],
+    "32": [
+      {
+        "value": "16.5",
+        "pom_code": "H-50",
+        "tol_plus": "0.25",
+        "tol_minus": "0.25",
+        "description": "J",
+        "name": "WAIST - Along top edge of waistband"
+      },
+      {
+        "value": "15.75",
+        "pom_code": "K-05",
+        "tol_plus": "0.25",
+        "tol_minus": "0.25",
+        "description": "U",
+        "name": "BACK RISE - Centre back, waistband to crotch seam"
+      }
+    ],
+    "33": [
+      {
+        "value": "17",
+        "pom_code": "H-50",
+        "tol_plus": "0.25",
+        "tol_minus": "0.25",
+        "description": "J",
+        "name": "WAIST - Along top edge of waistband"
+      },
+      {
+        "value": "15.875",
+        "pom_code": "K-05",
+        "tol_plus": "0.25",
+        "tol_minus": "0.25",
+        "description": "U",
+        "name": "BACK RISE - Centre back, waistband to crotch seam"
+      }
+    ],
+    "34": [
+      {
+        "value": "17.5",
+        "pom_code": "H-50",
+        "tol_plus": "0.25",
+        "tol_minus": "0.25",
+        "description": "J",
+        "name": "WAIST - Along top edge of waistband"
+      },
+      {
+        "value": "16",
+        "pom_code": "K-05",
+        "tol_plus": "0.25",
+        "tol_minus": "0.25",
+        "description": "U",
+        "name": "BACK RISE - Centre back, waistband to crotch seam"
+      }
+    ],
+    "36": [
+      {
+        "value": "18.5",
+        "pom_code": "H-50",
+        "tol_plus": "0.25",
+        "tol_minus": "0.25",
+        "description": "J",
+        "name": "WAIST - Along top edge of waistband"
+      },
+      {
+        "value": "16.25",
+        "pom_code": "K-05",
+        "tol_plus": "0.25",
+        "tol_minus": "0.25",
+        "description": "U",
+        "name": "BACK RISE - Centre back, waistband to crotch seam"
+      }
+    ],
+    "38": [
+      {
+        "value": "19.5",
+        "pom_code": "H-50",
+        "tol_plus": "0.25",
+        "tol_minus": "0.25",
+        "description": "J",
+        "name": "WAIST - Along top edge of waistband"
+      },
+      {
+        "value": "16.5",
+        "pom_code": "K-05",
+        "tol_plus": "0.25",
+        "tol_minus": "0.25",
+        "description": "U",
+        "name": "BACK RISE - Centre back, waistband to crotch seam"
+      }
+    ],
+    "40": [
+      {
+        "value": "20.5",
+        "pom_code": "H-50",
+        "tol_plus": "0.25",
+        "tol_minus": "0.25",
+        "description": "J",
+        "name": "WAIST - Along top edge of waistband"
+      },
+      {
+        "value": "16.75",
+        "pom_code": "K-05",
+        "tol_plus": "0.25",
+        "tol_minus": "0.25",
+        "description": "U",
+        "name": "BACK RISE - Centre back, waistband to crotch seam"
+      }
+    ],
+    "42": [
+      {
+        "value": "21.5",
+        "pom_code": "H-50",
+        "tol_plus": "0.25",
+        "tol_minus": "0.25",
+        "description": "J",
+        "name": "WAIST - Along top edge of waistband"
+      },
+      {
+        "value": "17",
+        "pom_code": "K-05",
+        "tol_plus": "0.25",
+        "tol_minus": "0.25",
+        "description": "U",
+        "name": "BACK RISE - Centre back, waistband to crotch seam"
+      }
+    ]
+  }
+}

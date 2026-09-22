@@ -1,0 +1,110 @@
+{
+  "units": "cm",
+  "mode": "mixed",
+  "key_measurements": {
+    "trousers": [
+      "J",
+      "k",
+      "L",
+      "M",
+      "N",
+      "O",
+      "P",
+      "Q",
+      "R",
+      "S"
+      
+    ]
+  },
+  "trousers": {
+    "S": [
+      {
+        "value": "53",
+        "pom_code": "AN58",
+        "tol_plus": "1",
+        "tol_minus": "-1",
+        "description": "P",
+        "name": "INSIDE LEG SEAM_R"
+      },
+      {
+        "value": "53",
+        "pom_code": "AN58",
+        "tol_plus": "1",
+        "tol_minus": "-1",
+        "description": "Q",
+        "name": "INSIDE LEG SEAM_L"
+      },
+            {
+        "value": "53",
+        "pom_code": "AN58",
+        "tol_plus": "1",
+        "tol_minus": "-1",
+        "description": "P",
+        "name": "INSIDE LEG SEAM - Measured from crotch point to hem along seam - GRADED - TROUSERS"
+      },
+      {
+        "value": "28",
+        "pom_code": "CN18",
+        "tol_plus": "1",
+        "tol_minus": "-1",
+        "description": "J",
+        "name": "WAIST RELAXED FLAT - Measure waistband flat without tension on the elastic - taken at the top edge of waistband"
+      },
+      {
+        "value": "14.5",
+        "pom_code": "LN22",
+        "tol_plus": "0.5",
+        "tol_minus": "-0.5",
+        "description": "R",
+        "name": "KNEE WIDTH - Measure straight across at 34cm down from crotch point - TROUSER / STRAIGHT LEG"
+      },
+      {
+        "value": "13.5",
+        "pom_code": "L3",
+        "tol_plus": "0.5",
+        "tol_minus": "-0.5",
+        "description": "K",
+        "name": "LEG OPENING/HEM WIDTH - Measure along cuff edge relax"
+      },
+            {
+        "value": "13.5",
+        "pom_code": "L3",
+        "tol_plus": "0.5",
+        "tol_minus": "-0.5",
+        "description": "L",
+        "name": "LEG OPENING/HEM WIDTH - Measure along cuff edge relax"
+      },
+      {
+        "value": "20",
+        "pom_code": "M5",
+        "tol_plus": "1",
+        "tol_minus": "-1",
+        "description": "S",
+        "name": "FRONT RISE - Top of waistband along seam to crotch point"
+      },
+      {
+        "value": "73",
+        "pom_code": "L3",
+        "tol_plus": "0.5",
+        "tol_minus": "-0.5",
+        "description": "O",
+        "name": "Right Leg Length"
+      },{
+        "value": "73",
+        "pom_code": "L3",
+        "tol_plus": "0.5",
+        "tol_minus": "-0.5",
+        "description": "N",
+        "name": "Left Leg Length"
+      },
+      {
+        "value": "37",
+        "pom_code": "L3",
+        "tol_plus": "0.5",
+        "tol_minus": "-0.5",
+        "description": "M",
+        "name": "HIP"
+      }
+    ]
+  }
+}

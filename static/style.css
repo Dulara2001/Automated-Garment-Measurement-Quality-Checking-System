@@ -1,0 +1,272 @@
+:root {
+    --bg-color: #0d0d0d;
+    --card-bg: #1a1a1a;
+    --text-primary: #ffffff;
+    --text-secondary: #a0a0a0;
+    --accent: #00f0ff;
+    --success: #00ff9d;
+    --border: #333;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+}
+
+body {
+    background-color: var(--bg-color);
+    color: var(--text-primary);
+    min-height: 100vh;
+    overflow-y: auto;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    padding: 1rem;
+    gap: 1rem;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1rem;
+}
+
+h1 {
+    font-weight: 700;
+    letter-spacing: -1px;
+}
+
+.accent {
+    color: var(--accent);
+}
+
+.status {
+    font-size: 0.8rem;
+    color: var(--success);
+    border: 1px solid var(--success);
+    padding: 0.2rem 0.5rem;
+    border-radius: 4px;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 350px;
+    gap: 1rem;
+    flex: 1;
+    min-height: 0;
+    /* overflow: visible;  Let it grow */
+}
+
+@media (max-width: 1000px) {
+    main {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr auto;
+        overflow-y: auto;
+        /* Allow scroll on small screens */
+    }
+
+    .sidebar {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .panel {
+        flex: 1;
+        min-width: 250px;
+    }
+}
+
+.monitor {
+    background: var(--card-bg);
+    border-radius: 12px;
+    border: 1px solid var(--border);
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    gap: 1rem;
+}
+
+.screen {
+    flex: 1;
+    background: #000;
+    border-radius: 8px;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+video,
+img#resultImage {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+}
+
+.controls {
+    display: flex;
+    gap: 1rem;
+    padding: 0.5rem;
+    background: #111;
+    border-radius: 8px;
+    align-items: center;
+}
+
+button {
+    background: #333;
+    color: #fff;
+    border: none;
+    padding: 0.8rem 1.2rem;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: 500;
+    transition: all 0.2s;
+}
+
+button:hover {
+    background: #444;
+}
+
+button.primary {
+    background: var(--accent);
+    color: #000;
+}
+
+button.primary:hover {
+    background: #00cce6;
+    box-shadow: 0 0 15px rgba(0, 240, 255, 0.4);
+}
+
+button.active {
+    background: var(--text-secondary);
+    color: #000;
+}
+
+.input-group {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+label {
+    font-size: 0.8rem;
+    color: var(--text-secondary);
+}
+
+input {
+    background: #222;
+    border: 1px solid var(--border);
+    padding: 0.8rem;
+    color: #fff;
+    border-radius: 6px;
+}
+
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.panel {
+    background: var(--card-bg);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 1rem;
+}
+
+.panel h2,
+.panel h3 {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    color: var(--text-secondary);
+}
+
+#resultsList {
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+}
+
+.result-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.8rem;
+    background: #222;
+    border-radius: 6px;
+    border-left: 3px solid var(--text-secondary);
+}
+
+.result-item.pass {
+    border-left-color: var(--success);
+}
+
+.result-item .name {
+    font-weight: 600;
+}
+
+.result-item .value {
+    color: var(--accent);
+    font-family: monospace;
+    font-size: 1.1rem;
+}
+
+.debug-views .thumbnails {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.thumbnails img {
+    width: 15rem;
+    height: 15rem;
+    max-width: 100%;
+    object-fit: contain;
+    background: #000;
+    border-radius: 4px;
+    border: 1px solid var(--border);
+    cursor: pointer;
+}
+
+.thumbnails img:hover {
+    transform: scale(2.5);
+    transition: transform 0.2s ease-in-out;
+    z-index: 1000;
+    position: relative;
+    border: 2px solid var(--accent);
+}
+
+.garment-selector {
+    display: flex;
+    gap: 0.5rem;
+    background: #111;
+    padding: 0.5rem;
+    border-radius: 6px;
+}
+
+.mode-btn {
+    flex: 1;
+    padding: 0.6rem;
+    font-size: 0.8rem;
+    background: transparent;
+    border: 1px solid transparent;
+    color: var(--text-secondary);
+}
+
+.mode-btn:hover {
+    background: #222;
+    color: #fff;
+}
+
+.mode-btn.active {
+    background: var(--text-primary);
+    color: #000;
+    border-color: var(--text-primary);
+}
