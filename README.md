@@ -1,6 +1,6 @@
 # Automated Garment Measurement & Quality-Checking System (GarmentQC AI)
 
-Demo: https://drive.google.com/file/d/1k-TzgBDfLrpxrScQBqidAcYVMN5Vl5qc/view?usp=sharing
+Demo: https://drive.google.com/file/d/1ReVgNIa4IViac4IZmGdcMWU0mDtdJ-rO/view?usp=sharing
 
 A computer-vision system that measures garments automatically for factory quality control.
 
